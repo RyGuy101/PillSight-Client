@@ -7,7 +7,6 @@
   "extensions": {
     "recommendations": [
       "eamodio.gitlens",
-      "ms-python.python",
       "dbaeumer.vscode-eslint",
     ]
   },
@@ -17,12 +16,6 @@
       "javascriptreact",
       "typescript",
       "typescriptreact"
-    ],
-    "eslint.workingDirectories": [
-      { 
-        "directory" : "./", 
-        "changeProcessCWD": true
-      }
     ],
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
