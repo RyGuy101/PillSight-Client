@@ -4,101 +4,14 @@ html, body, #root, .App {
 }
 
 .App {
-    padding: 16px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.TextView {
-    flex-grow: 1;
-    overflow: scroll;
-    outline-style: solid;
-    outline-width: 2px;
-    outline-color: #6c757d;
-    margin-bottom: 16px;
-    padding: 8px;
-    white-space: pre-wrap;
-}
-
-.App .interfaceContainer {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-}
-
-.CameraInterface .canvasbox {
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 450px;
-    height: 338px;
-}
-
-.CameraInterface .videobox {
-    display: none;
-}
-
-.TypingInterface {
-    width: 256px;
-    height: 256px;
-    outline-style: solid;
-    outline-width: 2px;
-    outline-color: #6c757d;
-}
-
-.TypingInterface .btn {
-    width: 51.2px;
-    height: 51.2px;
-    padding: 0px;
-    border-radius: 0px;
-}
-
-/* smartphones, touchscreens: disable button hover effect */
-@media (hover: none) and (pointer: coarse) {
-    .TypingInterface .btn:hover {
-        background-color: white;
-        color: #6c757d;
-    }
-
-    .TypingInterface .btn.btn-secondary:hover {
-        background-color: #6c757d;
-        color: white;
-    }
-}
-
-.TypingInterface #top_bar {
-    display: flex;
-    flex-direction: row;
-}
-
-.TypingInterface #word_container {
-    width: 153.6px;
-    height: 51.2px;
-    overflow: scroll;
-    direction: rtl;
-    display: flex;
-    flex-direction: row;
-}
-
-.TypingInterface #word {
-    flex-basis: 153.6px;
-    padding: 4px;
-    white-space: nowrap;
-    align-self: center;
-}
-
-.TypingInterface #word.auto-corrected {
-    color: blue;
-}
-
-.TypingInterface #qwerty .btn {
-    width: 25.6px;
-}
-
-.TypingInterface #qwerty > div {
-    display: flex;
-    justify-content: center;
-}
-
-.TypingInterface #space {
-    width: 153.6px;
+#scan-btn {
+    font-weight: bold;
+    font-size: 20px;
+    width: 75px;
+    height: 75px;
 }
