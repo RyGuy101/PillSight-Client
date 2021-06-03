@@ -1,2 +1,0 @@
-(this.webpackJsonpPillSight=this.webpackJsonpPillSight||[]).push([[0],{11:function(n,t,i){},13:function(n,t,i){},14:function(n,t,i){"use strict";i.r(t);i(0);var e=i(3),o=i.n(e),c=(i(9),i(10),i(4)),s=i.n(c),u=(i(11),i(1)),r=function(){return Object(u.jsx)("div",{className:"App",children:Object(u.jsx)(s.a,{audio:!1,imageSmoothing:!1})})};i(13);console.log("Running in production mode"),o.a.render(Object(u.jsx)(r,{}),document.getElementById("root"))}},[[14,1,2]]]);
-//# sourceMappingURL=main.4aadab11.chunk.js.map
